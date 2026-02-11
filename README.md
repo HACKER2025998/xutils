@@ -7,6 +7,11 @@
 
  Nom du projet : **xUtils — Intelligent Monitoring Automation CLI**
 
+
+
+ <img width="763" height="543" alt="image" src="https://github.com/user-attachments/assets/044bf95b-0f9e-4979-af75-9f9612ec760a" />
+
+
  Vision
 
 xUtils est un outil CLI intelligent conçu pour automatiser l’installation, la configuration et la gestion des solutions de monitoring et de sécurité système.
