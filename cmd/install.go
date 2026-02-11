@@ -13,16 +13,14 @@ import (
 var installCmd = &cobra.Command{
 	Use:   "install",
 	Short: "Install monitoring Tools",
-	Long: `xUtils est un outil CLI intelligent conçu pour automatiser l’installation, la configuration et la gestion des solutions de monitoring et de sécurité système.
+	Long: `xUtils is an intelligent CLI tool designed to automate
+the installation, configuration and management of
+monitoring and security solutions such as Nagios,
+Zabbix, Graylog and Wazuh.
 
-Il vise à réduire drastiquement le temps nécessaire pour déployer des outils comme :
-
-    Nagios
-    Zabbix
-    Graylog
-    Wazuh
-    Et autres solutions DevOps
-.`,
+It reduces deployment time, prevents configuration
+errors and provides smart diagnostics powered by
+local AI integrationnn .`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("install called")
 	},
