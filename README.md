@@ -39,7 +39,7 @@ Aujourd’hui, installer et configurer une solution de monitoring nécessite :
 Cela peut prendre :
 
  30 minutes à plusieurs heures
-❌ Avec risques d’erreurs humaines
+ Avec risques d’erreurs humaines
 
 xUtils automatise tout ce processus.
 
