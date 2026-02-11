@@ -12,13 +12,17 @@ import (
 // installCmd represents the install command
 var installCmd = &cobra.Command{
 	Use:   "install",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
+	Short: "Install monitoring Tools",
+	Long: `xUtils est un outil CLI intelligent conçu pour automatiser l’installation, la configuration et la gestion des solutions de monitoring et de sécurité système.
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+Il vise à réduire drastiquement le temps nécessaire pour déployer des outils comme :
+
+    Nagios
+    Zabbix
+    Graylog
+    Wazuh
+    Et autres solutions DevOps
+.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("install called")
 	},
